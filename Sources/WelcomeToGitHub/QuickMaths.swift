@@ -34,7 +34,7 @@ struct QuickMaths {
 	///   - rhs: Right hand side of the equation
 	/// - Returns: product of lhs and rhs as an Int.
 	func multiply(_ lhs:Int, _ rhs:Int ) -> Int {
-		return 2
+		return lhs * rhs
 	}
 	
 	/// Divides lhs (left hand side) to rhs (right hand side)
