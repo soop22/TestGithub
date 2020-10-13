@@ -25,7 +25,7 @@ struct QuickMaths {
 	///   - rhs: Right hand side of the equation
 	/// - Returns: subtraction of lhs and rhs as an Int.
 	func subtract(_ lhs:Int, _ rhs:Int ) -> Int {
-		return 0
+		return lhs - rhs
 	}
 	
 	/// Multiplies lhs (left hand side) to rhs (right hand side)
