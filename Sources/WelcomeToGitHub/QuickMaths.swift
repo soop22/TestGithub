@@ -43,7 +43,7 @@ struct QuickMaths {
 	///   - rhs: Right hand side of the equation
 	/// - Returns: quotient of lhs and rhs as an Int.
 	func divide(_ lhs:Int, _ rhs:Int ) -> Int {
-		return 6
+		return lhs / rhs
 	}
 }
 /*
